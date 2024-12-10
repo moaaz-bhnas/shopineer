@@ -22,14 +22,14 @@ module.exports = defineConfig({
     },
     databaseDriverOptions: { ssl: { rejectUnauthorized: false } },
   },
-  plugins: [
-    {
-      resolve: "@medusajs/admin",
-      /** @type {import('@medusajs/admin').PluginOptions} */
-      options: {
-        autoRebuild: true,
-        // other options...
-      },
-    },
-  ],
+  // plugins: [
+  //   {
+  //     resolve: "@medusajs/admin",
+  //     /** @type {import('@medusajs/admin').PluginOptions} */
+  //     options: {
+  //       autoRebuild: true,
+  //       // other options...
+  //     },
+  //   },
+  // ],
 });
